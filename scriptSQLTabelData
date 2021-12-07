@@ -1,0 +1,35 @@
+--Jalanin create table dulu
+
+CREATE TABLE public.vw_hasil_normalisasi_min_max_latihan (
+	tbmm_id int4 NULL,
+	normalisasi_frekuensi numeric NULL,
+	normalisasi_total numeric NULL
+);
+
+
+--setelah create insert data blok semua langsung control + enter;
+
+INSERT INTO public.vw_hasil_normalisasi_min_max_latihan
+(tbmm_id, normalisasi_frekuensi, normalisasi_total)
+VALUES(23790255, 0, 0.541826134499727);
+INSERT INTO public.vw_hasil_normalisasi_min_max_latihan
+(tbmm_id, normalisasi_frekuensi, normalisasi_total)
+VALUES(1015900, 0, 0.036632039365774);
+INSERT INTO public.vw_hasil_normalisasi_min_max_latihan
+(tbmm_id, normalisasi_frekuensi, normalisasi_total)
+VALUES(938634, 1, 0.003280481137233);
+INSERT INTO public.vw_hasil_normalisasi_min_max_latihan
+(tbmm_id, normalisasi_frekuensi, normalisasi_total)
+VALUES(21636593, 0.272727280855179, 1);
+INSERT INTO public.vw_hasil_normalisasi_min_max_latihan
+(tbmm_id, normalisasi_frekuensi, normalisasi_total)
+VALUES(22644226, 0.363636374473572, 0.045379989065063);
+INSERT INTO public.vw_hasil_normalisasi_min_max_latihan
+(tbmm_id, normalisasi_frekuensi, normalisasi_total)
+VALUES(24297067, 0.181818187236786, 0);
+INSERT INTO public.vw_hasil_normalisasi_min_max_latihan
+(tbmm_id, normalisasi_frekuensi, normalisasi_total)
+VALUES(789904, 0.454545468091965, 0.751776927282668);
+INSERT INTO public.vw_hasil_normalisasi_min_max_latihan
+(tbmm_id, normalisasi_frekuensi, normalisasi_total)
+VALUES(1301299, 0.181818187236786, 0.140513942044833);
